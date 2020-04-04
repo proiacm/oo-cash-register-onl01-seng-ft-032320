@@ -36,6 +36,6 @@ def void_last_transaction
   @quantity.time do
     @item.pop
 
-  
+  end
 end
 end
