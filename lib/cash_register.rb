@@ -32,6 +32,6 @@ def items
 end
 
 def void_last_transaction
-  subtract_last.item
+  @total = subtract_last.item
 end
 end
