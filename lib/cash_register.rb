@@ -13,6 +13,7 @@ end
 
 def add_item(item, price, quantity = 1)
   @quantity = quantity
+  @price = price
   quantity.times do
     @item << item 
   end
@@ -35,7 +36,7 @@ end
 def void_last_transaction
   @quantity.time do
     @item.pop
-
   end
+  @total 
 end
 end
