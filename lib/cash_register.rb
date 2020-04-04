@@ -34,7 +34,7 @@ def items
 end
 
 def void_last_transaction
-    @quantity.time do
+    @quantity.times do
       @item.pop
     end
     @total -= @price * @quantity
