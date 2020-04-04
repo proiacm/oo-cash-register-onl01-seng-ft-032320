@@ -26,6 +26,7 @@ def apply_discount
 end 
 
 def items(list)
+  @item
 end
 
 def void_last_transaction
