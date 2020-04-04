@@ -25,7 +25,7 @@ def apply_discount
   end
 end 
 
-def items(list)
+def items
   add_item
   item
 end
