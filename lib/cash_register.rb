@@ -14,8 +14,8 @@ end
 def add_item(item, price, quantity = 1)
   quantity.times do
     @item << item 
-    @total += price * quantity
   end
+    @total += price * quantity
 end
 
 def apply_discount
