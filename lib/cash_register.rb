@@ -27,7 +27,7 @@ end
 
 def items
   add_item
-  item
+ @item
 end
 
 def void_last_transaction
