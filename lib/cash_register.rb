@@ -12,7 +12,7 @@ def total
 end 
 
 def add_item(item, price, quantity = 1)
-  @item << item
+  @item << item * quantity
   @total += price * quantity
 end
 
@@ -26,8 +26,7 @@ def apply_discount
 end 
 
 def items
-  add_item
- @item
+  @item
 end
 
 def void_last_transaction
