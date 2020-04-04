@@ -33,6 +33,7 @@ end
 
 def void_last_transaction
   @item.pop
+  @total = quantity -= 1
   
 end
 end
