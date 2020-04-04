@@ -20,6 +20,7 @@ end
 def items(list)
   list = []
   list << @item
+  list
 end
 
 def void_last_transaction
