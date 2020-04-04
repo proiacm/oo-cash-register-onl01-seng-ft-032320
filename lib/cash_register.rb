@@ -32,6 +32,6 @@ def items
 end
 
 def void_last_transaction
- @total = @item.pop
+  @item.pop = @total
 end
 end
