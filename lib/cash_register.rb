@@ -33,6 +33,6 @@ end
 
 def void_last_transaction
   @item.pop
-  @total
+  
 end
 end
