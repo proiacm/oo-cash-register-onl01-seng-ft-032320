@@ -12,15 +12,13 @@ end
 
 def add_item(item, price, quantity = 1)
   
+  
 end
 
 def apply_discount
 end 
 
 def items(list)
-  list = []
-  list << @item
-  list
 end
 
 def void_last_transaction
