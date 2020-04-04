@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :total
   
-def initialize
+def initialize(total)
     @total.to_i = %//.total
     
 end
