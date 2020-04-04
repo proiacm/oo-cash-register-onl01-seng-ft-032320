@@ -2,8 +2,9 @@ class CashRegister
   attr_accessor :total, :item, :discount
   
 def initialize
-  total = 0.00
+  total = 0
   @total = total
+  @discount = 20 
   
     
 end
