@@ -17,7 +17,7 @@ def add_item(item, price, quantity = 1)
 end
 
 def apply_discount
-  @total number_to_percentage @discount
+  @total / number_to_percentage(@discount)
 end 
 
 def items(list)
